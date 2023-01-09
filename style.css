@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #efeff2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 200ms ease;
+}
+
+.calculator {
+  width: 300px;
+  height: 500px;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  background: #22252d;
+  overflow: hidden;
+}
+
+.big-screen {
+  width: 100%;
+  height: 150px;
+  border: none;
+  border-radius: 12px;
+  font-size: 2rem;
+  padding: 1rem;
+  color: #fff;
+  background: rgb(75, 75, 75);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  pointer-events: none;
+}
+
+form input[type='text'] {
+  width: 100%;
+  background: rgb(189, 234, 189);
+  height: 90px;
+  font-size: 3.25rem;
+  text-align: right;
+}
+
+#clear-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-bottom: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+button {
+  flex: 0 0 22%;
+  margin: 5px 0;
+  border: 1px solid #000;
+  width: 60px;
+  height: 52px;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:active,
+.clear-btn:active {
+  transform: translateY(2px);
+}
+
+.btn-yellow {
+  background: rgb(245, 146, 62);
+  color: #fff;
+}
+
+.btn-grey {
+  background: rgb(224, 224, 224);
+}
+
+.btn-equal {
+  background: green;
+}
+
+.btn-clear {
+  background: red;
+}
+
+.btn-del {
+  background: lightblue;
+}
