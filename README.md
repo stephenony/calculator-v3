@@ -8,7 +8,6 @@ A calculator app made with HTML, CSS and JavaScript
 
 ### Resource @ tech2etc
 * I made a change to the UI (display screen and button placement/addition clear button)
-** (display screen and button placement/addition clear button)
 * modified the JavaScript code
 * added a key-press effect to the CSS
 
